@@ -33,6 +33,7 @@
   color: $white;
   margin: 8px 0;
   text-align: left;
+  font-family: 'Inter', sans-serif;
 }
 
 .computer-container img {
@@ -50,6 +51,31 @@
 .computer-container .link-more {
   margin-top: 15px;
 }
+
+.link-see-more {
+  font-family: 'Inter', sans-serif;
+  color: $blue;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border: 2px solid $blue; /* Add a border to create a button-like effect */
+  border-radius: 5px; /* Rounded corners for a modern look */
+  background-color: transparent; /* Transparent background */
+  transition: all 0.3s ease;
+}
+
+.link-see-more:hover {
+  color: $white; /* Change text color to white on hover */
+  background-color: $blue; /* Add a background color on hover */
+  border-color: $white; /* Change the border color to white on hover */
+  box-shadow: 0 0 5px $blue, 0 0 10px $blue, 0 0 15px $blue; /* Less intense glow, closer to the original blue */
+}
+
+.link-see-more:focus {
+  outline: none; /* Remove the default outline */
+  box-shadow: 0 0 5px $blue, 0 0 10px $blue, 0 0 15px $blue; /* Subtle glow effect on focus */
+}
+
 
 @media (max-width: 768px) {
   .computers-grid {
