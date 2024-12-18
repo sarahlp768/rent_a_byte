@@ -1,0 +1,64 @@
+.computers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns in a row */
+  gap: 20px; /* Space between the cards */
+  padding: 20px;
+}
+
+.computer-container {
+  background-color: $black;
+  border: 1px solid $blue;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.computer-container:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.computer-container h2 {
+  font-size: 1.8rem;
+  color: $white;
+  margin-bottom: 10px;
+  font-family: 'Orbitron', sans-serif; /* Correct application */
+}
+
+
+.computer-container p {
+  font-size: 1rem;
+  color: $white;
+  margin: 8px 0;
+  text-align: left;
+}
+
+.computer-container img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 6px;
+  border: 0.2px solid $blue;
+}
+
+.computer-container i {
+  margin-right: 8px;
+}
+
+.computer-container .link-more {
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .computers-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .computers-grid {
+    grid-template-columns: 1fr;
+  }
+}

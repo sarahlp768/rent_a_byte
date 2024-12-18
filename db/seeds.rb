@@ -24,7 +24,7 @@ Computer.create!(
   availability_end_date: DateTime.now + rand(28..50).days,
   operating_system: "Commodore 64 OS",
   description: "An iconic 8-bit home computer from the early 80s.",
-  image: "https://upload.wikimedia.org/wikipedia/commons/e/ee/Commodore_64_D.jpg",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzDQ5LGuOIU5HmzO4lvdX7jaSS8YxrS3Ll-X608lqbRVmmntqHlNStgdiVEnTNKJk3n_k&usqp=CAU",
   user_id: user1.id
 )
 
@@ -39,7 +39,7 @@ Computer.create!(
   availability_end_date: DateTime.now + rand(28..50).days,
   operating_system: "Apple DOS",
   description: "The first personal computer developed by Apple.",
-  image: "https://upload.wikimedia.org/wikipedia/commons/4/47/Apple_II_Computer.jpg",
+  image: "https://upload.wikimedia.org/wikipedia/commons/5/57/Apple_II_IMG_4218-black.jpg",
   user_id: user2.id
 )
 
@@ -54,7 +54,7 @@ Computer.create!(
   availability_end_date: DateTime.now + rand(28..50).days,
   operating_system: "PC-DOS",
   description: "The first IBM personal computer, a milestone in computing history.",
-  image: "https://upload.wikimedia.org/wikipedia/commons/0/05/IBM_PC_5150.jpg",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1-tSpOYWSXvqrj6EvmzKR-4IW4q03KM4HDQ&s",
   user_id: user3.id
 )
 
@@ -69,7 +69,7 @@ Computer.create!(
   availability_end_date: DateTime.now + rand(28..50).days,
   operating_system: "Atari OS",
   description: "A home video game console that became a classic.",
-  image: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Atari_2600.jpg",
+  image: "https://cdn.pixabay.com/photo/2019/01/29/10/18/atari-2600-3962077_1280.png",
   user_id: user4.id
 )
 
@@ -84,7 +84,7 @@ Computer.create!(
   availability_end_date: DateTime.now + rand(28..50).days,
   operating_system: "Sinclair OS",
   description: "A popular 8-bit personal computer in the 1980s.",
-  image: "https://upload.wikimedia.org/wikipedia/commons/6/6f/ZX_Spectrum.jpg",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7bRONQxxlfN35lpQNM6FufN8rwhUxX7Es6Q&s",
   user_id: user5.id
 )
 
@@ -99,7 +99,7 @@ Computer.create!(
   availability_end_date: DateTime.now + rand(28..50).days,
   operating_system: "AmigaOS",
   description: "An advanced personal computer for its time with powerful graphics.",
-  image: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Amiga_500.jpg",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcJISctfNNnNHdmLVopCT2pbn605CzU9dpQA&s",
   user_id: user6.id
 )
 
@@ -114,7 +114,7 @@ Computer.create!(
   availability_end_date: DateTime.now + rand(28..50).days,
   operating_system: "System Software 1.0",
   description: "Apple's first Macintosh personal computer, known for its graphical user interface.",
-  image: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Macintosh_128K.jpg",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRERPE-uYYeM-Fkdv9yooChjeem_OhhjWm6kQ-kGIUty0UxqPMTR60UgCs18rYA88DY1g0&usqp=CAU",
   user_id: user1.id
 )
 
@@ -129,7 +129,7 @@ Computer.create!(
   availability_end_date: DateTime.now + rand(28..50).days,
   operating_system: "TRSDOS",
   description: "One of the first mass-market personal computers, produced by Tandy.",
-  image: "https://upload.wikimedia.org/wikipedia/commons/9/9f/TRS-80_Model_I.jpg",
+  image: "https://upload.wikimedia.org/wikipedia/commons/4/4b/RadioShack_TRS-80_mod4-IMG_5778.jpg",
   user_id: user2.id
 )
 
@@ -144,7 +144,7 @@ Computer.create!(
   availability_end_date: DateTime.now + rand(28..50).days,
   operating_system: "NEC BASIC",
   description: "One of the first Japanese personal computers, popular in the 80s.",
-  image: "https://upload.wikimedia.org/wikipedia/commons/2/2f/NEC_PC-8001.jpg",
+  image: "https://www.nippon.com/ja/ncommon/contents/japan-topics/2671992/2671992.jpg",
   user_id: user3.id
 )
 

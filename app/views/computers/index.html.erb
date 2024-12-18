@@ -1,1 +1,19 @@
-<h1> hello </h1>
+<div class="computers-grid">
+  <% @computers.each do |computer| %>
+    <div class="computer-container">
+      <div>
+      <%= image_tag computer.image %>
+      </div>
+      <h2> <%= computer.name %> </h2>
+      <p> Brand: <%= computer.brand %> </p>
+      <p> Creation year: <%= computer.creation_year %> </p>
+      <div>
+      <p> <%= computer.price_per_day %>€ per day</p>
+      </div>
+
+      <div>
+        <%= link_to "More info", computer_path(computer) %>  <!-- Link to more info page -->
+      </div>
+    </div>
+  <% end %>
+</div>
