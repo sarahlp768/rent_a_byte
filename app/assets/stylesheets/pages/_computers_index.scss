@@ -31,9 +31,37 @@
 .computer-container p {
   font-size: 1rem;
   color: $white;
-  margin: 8px 0;
-  text-align: left;
   font-family: 'Inter', sans-serif;
+}
+
+.brand-year-price {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start; /* Aligne les éléments au début du conteneur */
+  width: 100%; /* S'assure que le conteneur prend toute la largeur disponible */
+  margin-top: 10px; /* Ajouter de l'espace au-dessus de la section */
+  margin-bottom: 20px;
+}
+
+.brand, .year, .price {
+  text-align: center; /* Centrer le texte dans chaque section */
+  width: 30%; /* Chaque section prend 30% de la largeur du conteneur */
+}
+
+.label {
+  font-weight: bold; /* Mets les labels en gras */
+  font-size: 1rem; /* Taille de police des labels */
+  margin-bottom: 5px; /* Espacement entre le label et la valeur */
+}
+
+.computer-brand, .computer-year, .computer-price {
+  font-size: 1rem; /* Taille de police des valeurs */
+  color: $white; /* Assurer que les valeurs sont visibles */
+  margin: 0; /* Enlève les marges par défaut */
+}
+
+.computer-description {
+text-align: center;
 }
 
 .computer-container img {
@@ -68,12 +96,12 @@
   color: $white; /* Change text color to white on hover */
   background-color: $blue; /* Add a background color on hover */
   border-color: $white; /* Change the border color to white on hover */
-  box-shadow: 0 0 5px $blue, 0 0 10px $blue, 0 0 15px $blue; /* Less intense glow, closer to the original blue */
+  box-shadow: 0 0 10px $blue, 0 0 20px $blue, 0 0 30px $blue; /* Neon-style glowing effect */
 }
 
 .link-see-more:focus {
   outline: none; /* Remove the default outline */
-  box-shadow: 0 0 5px $blue, 0 0 10px $blue, 0 0 15px $blue; /* Subtle glow effect on focus */
+  box-shadow: 0 0 10px $blue, 0 0 20px $blue, 0 0 30px $blue; /* Glow effect on focus */
 }
 
 

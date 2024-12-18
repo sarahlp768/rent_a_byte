@@ -2,13 +2,29 @@
   <% @computers.each do |computer| %>
     <div class="computer-container">
       <div>
-      <%= image_tag computer.image %>
+        <%= image_tag computer.image %>
       </div>
-      <h2> <%= computer.name %> </h2>
-      <p> Brand: <%= computer.brand %> </p>
-      <p> Creation year: <%= computer.creation_year %> </p>
-      <div>
-      <p> <%= computer.price_per_day %>€ per day</p>
+      <h2 class="computer-name"> <%= computer.name %> </h2>
+      <p class="computer-description"> <%= computer.description %> </p>
+
+      <div class="brand-year-price">
+        <!-- Label "Brand" et sa valeur -->
+        <div class="brand">
+          <p class="label">Brand</p>
+          <p class="computer-brand"> <%= computer.brand %> </p>
+        </div>
+
+        <!-- Label "Creation year" et sa valeur -->
+        <div class="year">
+          <p class="label">Creation year</p>
+          <p class="computer-year"> <%= computer.creation_year %> </p>
+        </div>
+
+        <!-- Label "Price" et sa valeur -->
+        <div class="price">
+          <p class="label">Price</p>
+          <p class="computer-price"> <%= computer.price_per_day %>€ per day</p>
+        </div>
       </div>
 
       <div>
